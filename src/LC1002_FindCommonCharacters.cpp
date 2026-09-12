@@ -17,7 +17,7 @@ public:
         }
             for (auto k : s){
                 while (k.second--){//可能有多个重复的字符
-                res.push_back(string(1,k.first));//构造函数1个长度
+                res.push_back(string(1,k.first));//要放入的是string所以只能创建一个长度构造函数
                 }
                 
             }
