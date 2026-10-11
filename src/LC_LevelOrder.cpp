@@ -27,7 +27,7 @@ public:
                 if (node->right) q.push_back(node->right);
                 levelAns.push_back(node->val);
             }
-            ans.push_back(levelAns);
+            ans.push_back(levelAns);//添加一层
         }
         return ans;
     }
